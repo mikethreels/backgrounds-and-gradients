@@ -3,6 +3,9 @@
     src: url('../fonts/LucidaGrande.ttf');
 }
 
+html{
+    font-family: "LG", Helvetica, Arial, Verdana, sans-serif;
+}
 header {
     height: 65vh;
     width: 100vw;
@@ -25,17 +28,15 @@ aside ul {
     gap: 1px;
 }
 
-aside ul >li {
-    max-width: 25vw;
-}
-
-a {
+.aside-link {
     height: 100%;
     display: inline-block;
+    width: 100%;
 }
 
 .aside-img {
     max-width: 100%;
+    height: 100%;
 }
 
 .background {
@@ -68,10 +69,6 @@ nav ul >li,
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    font-family: "LG", Helvetica, Arial, Verdana, sans-serif;
-    /* border-width: 0 1px 0 2px;
-    border-style:  solid;
-    border-color: -webkit-linear-gradient(#808080, #5e5e5e, #808080); */
     border-right: 1px solid transparent;
     border-image: radial-gradient(#808080 , #5e5e5e 90%);
     border-image-slice: 1;
@@ -101,4 +98,28 @@ font-size: 25px;
     margin: 1px 10px 1px 30px;
     background: -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
     width: 60%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    margin-top: 10px;
+    color: #6e6e6e;
+    font-size: 10px;
+    width: 74vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-container div >ul{
+    height: 36px;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+}
+
+.footer-link{
+    padding-left: 5px;
+    border-left: 1px solid #acacac;
 }
