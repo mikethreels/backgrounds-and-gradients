@@ -127,6 +127,7 @@ nav ul :nth-child(9):hover {
 
 aside {
   clear: left;
+  min-height: 210px;
   height: 25vh;
   min-height: 210px;
   width: 100vw;
