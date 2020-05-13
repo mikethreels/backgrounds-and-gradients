@@ -63,13 +63,12 @@ footer a {
   text-decoration: none;
 }
 
-nav a, 
+nav a,
 .header-text a {
   color: #fff;
   text-decoration: none;
   display: block;
 }
-
 
 nav ul > li:hover {
   background: linear-gradient(#808080, #5e5e5e, #2c2c2c, #5e5e5e, #808080);
@@ -80,17 +79,17 @@ nav ul :nth-child(1) {
   border-left: none;
 }
 
-nav ul :nth-child(9):hover {
-  background: none;
-  cursor: default;
-}
-
 nav ul :nth-child(1) > i {
   font-size: 25px;
 }
 
 nav ul :nth-child(9) {
   border-right: none;
+}
+
+nav ul :nth-child(9):hover {
+  background: none;
+  cursor: default;
 }
 
 .searchbar-container {
@@ -149,7 +148,7 @@ aside ul {
 }
 
 .aside-link,
-.aside-img  {
+.aside-img {
   height: 100%;
   display: inline-block;
   width: 100%;
