@@ -21,6 +21,7 @@ header {
   width: 100vw;
   float: left;
   min-width: 980px;
+  max-width: 100%;
 }
 
 .background {
@@ -142,6 +143,7 @@ aside {
   height: 25vh;
   width: 100vw;
   min-width: 980px;
+  max-width: 100%;
 }
 
 .block {
