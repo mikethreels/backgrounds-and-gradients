@@ -1,184 +1,190 @@
 /* General formatting */
 @font-face {
-    font-family: 'LG';
-    src: url('../fonts/LucidaGrande.ttf');
+  font-family: 'LG';
+  src: url('../fonts/LucidaGrande.ttf');
 }
 
 @font-face {
-    font-family: 'HN';
-    src: url(../fonts/HelveticaNeue-Thin.otf);
+  font-family: 'HN';
+  src: url(../fonts/HelveticaNeue-Thin.otf);
 }
 
-html{
-    font-family: "LG", Helvetica, Arial, Verdana, sans-serif;
+html {
+  font-family: "LG", Helvetica, Arial, Verdana, sans-serif;
 }
 
 /* Header/navbar */
 
 header {
-    height: 65vh;
-    width: 100vw;
-    float: left;
-    min-width: 980px;
+  height: 65vh;
+  width: 100vw;
+  float: left;
+  min-width: 980px;
 }
 
 .background {
-    float: left;
-    width: 100%;
-    height: 100%;
-    background: url(../images/background.png); 
-    background-size: cover;
-    background-position: 0 100%; 
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: url(../images/background.png);
+  background-size: cover;
+  background-position: 0 100%;
 }
 
-nav{
-    width: 980px;
-    margin: 70px auto;
-    background: linear-gradient( #888888 15%, #707070 45%, #5e5e5e 50%, #5e5e5e 80%, #777777 100% );
-    border-radius: 3px;
+nav {
+  width: 980px;
+  margin: 70px auto;
+  background: linear-gradient(#888 15%, #707070 45%, #5e5e5e 50%, #5e5e5e 80%, #777 100%);
+  border-radius: 3px;
 }
 
-ul{
-    height: 36px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr) 132px;
-    
+ul {
+  height: 36px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) 132px;
 }
 
-nav ul >li,
-.searchbar-nav{
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    border-right: 1px solid transparent;
-    border-image: radial-gradient(#808080 , #5e5e5e 90%);
-    border-image-slice: 1;
+nav ul > li,
+.searchbar-nav {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border-right: 1px solid transparent;
+  border-image: radial-gradient(#808080, #5e5e5e 90%);
+  border-image-slice: 1;
 }
 
-nav ul >li >a,
-.header-text a{
-    display: block;
+footer a {
+  color: #08c;
+  text-decoration: none;
 }
 
-nav ul >li:hover {
-    background: linear-gradient(#808080, #5e5e5e, #2c2c2c, #5e5e5e, #808080);
-    cursor: pointer;
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul > li > a,
+.header-text a {
+  display: block;
+}
+
+.header-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul > li:hover {
+  background: linear-gradient(#808080, #5e5e5e, #2c2c2c, #5e5e5e, #808080);
+  cursor: pointer;
 }
 
 nav ul :nth-child(1) {
-    border-left: none;
+  border-left: none;
 }
-nav ul :nth-child(1) >i {
-font-size: 25px;
+
+nav ul :nth-child(1) > i {
+  font-size: 25px;
 }
 
 .searchbar-nav {
-    border-right: none;
+  border-right: none;
 }
 
-.searchbar-container{
-    background: #000;
-    background: url("../images/search-icon.png") 10px 50% no-repeat, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-    background-size: contain;
-    border-radius: 50px;
-    border: 1px solid #5e5e5e;
-    width: 80%;
-    box-shadow: -1px -1px #353535, 1px 1px #808080;
+.searchbar-container {
+  background: #000;
+  background: url("../images/search-icon.png") 10px 50% no-repeat, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background-size: contain;
+  border-radius: 50px;
+  border: 1px solid #5e5e5e;
+  width: 80%;
+  box-shadow: -1px -1px #353535, 1px 1px #808080;
 }
+
 .searchbar {
-    margin: 1px 10px 1px 30px;
-    background: -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-    width: 60%;
+  margin: 1px 10px 1px 30px;
+  background: -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  width: 60%;
 }
 
 .header-text {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'HN';
+  text-align: center;
+  font-size: 25px;
+  font-family: 'HN', Arial, Helvetica, sans-serif;
 }
 
 .header-text span {
-    display: inline-block;
-    margin: 17px;
-}
-
-nav a,
-.header-text a{
-    color: #fff;
-    text-decoration: none;
+  display: inline-block;
+  margin: 17px;
 }
 
 .play-button {
-    margin: -8px;
+  margin: -8px;
 }
 
 /* Aside */
 
 aside {
-    clear: left;
-    height: 25vh;
-    width: 100vw;
-    min-width: 980px;
+  clear: left;
+  height: 25vh;
+  width: 100vw;
+  min-width: 980px;
 }
- 
-.block{
-    display: block;
-    height: 13px;
+
+.block {
+  display: block;
+  height: 13px;
 }
 
 aside ul {
-    max-width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
+  max-width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
 }
 
 .aside-link {
-    height: 100%;
-    display: inline-block;
-    width: 100%;
+  height: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 .aside-img {
-    max-width: 100%;
-    height: 100%;
+  max-width: 100%;
+  height: 100%;
 }
 
 /* Footer */
 
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-footer a {
-    color: #08c;
-    text-decoration: none;
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.footer-container{
-    margin-top: 20px;
-    color: #6e6e6e;
-    font-size: 9px;
-    width: 74vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3.5vh 3.5vh;
-}
-.footer-container div >ul{
-    height: 34px;
-    display: grid;
-    grid-template-columns: repeat(8, auto);
+.footer-container {
+  margin-top: 20px;
+  color: #6e6e6e;
+  font-size: 9px;
+  width: 74vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3.5vh 3.5vh;
 }
 
-.footer-link{
-    padding-left: 5px;
-    border-left: 1px solid #acacac;
+.footer-container div > ul {
+  height: 34px;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+}
+
+.footer-link {
+  padding-left: 5px;
+  border-left: 1px solid #acacac;
 }
