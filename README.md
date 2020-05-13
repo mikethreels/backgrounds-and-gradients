@@ -17,6 +17,10 @@ This project consists of building a webpage using images as a background and add
 
 To get a local copy up and running follow these simple example steps.
 
+git clone https://github.com/mikethreels/backgrounds-and-gradients.git 
+Open the index.html with your favorite browser
+Explore our site
+
 ### Usage
 - Just open the `index.html` file
 
