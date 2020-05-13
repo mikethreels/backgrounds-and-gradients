@@ -1,8 +1,8 @@
 # backgrounds-and-gradients
 
-![screenshot]()
+![screenshot](./images/preview.png)
 
-This is just a clone of youtube's video page.
+This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the Apple website webpage.
 
 ## Built With
 
@@ -10,7 +10,7 @@ This is just a clone of youtube's video page.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://mikethreels.github.io/backgrounds-and-gradients/)
 
 
 ## Getting Started
@@ -26,6 +26,8 @@ To get a local copy up and running follow these simple example steps.
 👤 **Michael Threels**
 
 - Github: [@githubhandle](https://github.com/mikethreels)
+- Twitter: [@twitterhandle](https://twitter.com/MichaelThreels)
+- LinkedIn :[@linkedinhandle](https://www.linkedin.com/in/michael-threels-24101991) 
 
 ## 🤝 Contributing
 
