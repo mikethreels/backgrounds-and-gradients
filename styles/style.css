@@ -17,6 +17,7 @@ html {
 
 header {
   height: 65vh;
+  min-height: 600px;
   width: 100vw;
   float: left;
   min-width: 980px;
@@ -137,6 +138,7 @@ nav ul :nth-child(1) > i {
 
 aside {
   clear: left;
+  min-height: 210px;
   height: 25vh;
   width: 100vw;
   min-width: 980px;
