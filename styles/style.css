@@ -85,6 +85,11 @@ nav ul :nth-child(1) {
   border-left: none;
 }
 
+nav ul :nth-child(9):hover {
+  background: none;
+  cursor: default;
+}
+
 nav ul :nth-child(1) > i {
   font-size: 25px;
 }
@@ -118,6 +123,10 @@ nav ul :nth-child(1) > i {
 .header-text span {
   display: inline-block;
   margin: 17px;
+}
+
+.header-text span:hover {
+  text-decoration: underline;
 }
 
 .play-button {
