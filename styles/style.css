@@ -63,7 +63,7 @@ footer a {
   text-decoration: none;
 }
 
-nav a, 
+nav a,
 .header-text a {
   color: #fff;
   text-decoration: none;
@@ -129,7 +129,6 @@ aside {
   clear: left;
   min-height: 210px;
   height: 25vh;
-  min-height: 210px;
   width: 100vw;
   min-width: 980px;
   max-width: 100%;
@@ -149,7 +148,7 @@ aside ul {
 }
 
 .aside-link,
-.aside-img  {
+.aside-img {
   height: 100%;
   display: inline-block;
   width: 100%;
