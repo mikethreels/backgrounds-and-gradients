@@ -63,7 +63,7 @@ footer a {
   text-decoration: none;
 }
 
-nav a,
+nav a, 
 .header-text a {
   color: #fff;
   text-decoration: none;
@@ -149,7 +149,7 @@ aside ul {
 }
 
 .aside-link,
-.aside-img {
+.aside-img  {
   height: 100%;
   display: inline-block;
   width: 100%;
